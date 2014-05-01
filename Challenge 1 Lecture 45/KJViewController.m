@@ -7,6 +7,7 @@
 //
 
 #import "KJViewController.h"
+#import "KJChallenge.h"
 
 @interface KJViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    KJChallenge *myChallenge = [[KJChallenge alloc] init];
+
+    //[myChallenge loop:5 range:2];
+    
+    int factorialValue = [myChallenge factorial:10];
+    NSLog(@"factorial: %i", factorialValue);
 }
 
 - (void)didReceiveMemoryWarning

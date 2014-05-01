@@ -21,6 +21,7 @@
 		63150ABE18F28C4500F59B96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63150AA018F28C4500F59B96 /* UIKit.framework */; };
 		63150AC618F28C4500F59B96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63150AC418F28C4500F59B96 /* InfoPlist.strings */; };
 		63150AC818F28C4500F59B96 /* Challenge_1_Lecture_45Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63150AC718F28C4500F59B96 /* Challenge_1_Lecture_45Tests.m */; };
+		63150AD318F28FEA00F59B96 /* KJChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 63150AD218F28FEA00F59B96 /* KJChallenge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		63150AC318F28C4500F59B96 /* Challenge 1 Lecture 45Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Challenge 1 Lecture 45Tests-Info.plist"; sourceTree = "<group>"; };
 		63150AC518F28C4500F59B96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63150AC718F28C4500F59B96 /* Challenge_1_Lecture_45Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Challenge_1_Lecture_45Tests.m; sourceTree = "<group>"; };
+		63150AD118F28FEA00F59B96 /* KJChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJChallenge.h; sourceTree = "<group>"; };
+		63150AD218F28FEA00F59B96 /* KJChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJChallenge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				63150AAE18F28C4500F59B96 /* Main.storyboard */,
 				63150AB118F28C4500F59B96 /* KJViewController.h */,
 				63150AB218F28C4500F59B96 /* KJViewController.m */,
+				63150AD118F28FEA00F59B96 /* KJChallenge.h */,
+				63150AD218F28FEA00F59B96 /* KJChallenge.m */,
 				63150AB418F28C4500F59B96 /* Images.xcassets */,
 				63150AA318F28C4500F59B96 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63150AD318F28FEA00F59B96 /* KJChallenge.m in Sources */,
 				63150AB318F28C4500F59B96 /* KJViewController.m in Sources */,
 				63150AA918F28C4500F59B96 /* main.m in Sources */,
 				63150AAD18F28C4500F59B96 /* KJAppDelegate.m in Sources */,
